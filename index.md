@@ -1,7 +1,7 @@
 # 2025 暑期實習職缺分享
 
 <aside>
-<img src="https://www.notion.so/icons/tag_brown.svg" alt="https://www.notion.so/icons/tag_brown.svg" width="40px" /> （更新日期：2025/2/26）
+<img src="https://www.notion.so/icons/tag_brown.svg" alt="https://www.notion.so/icons/tag_brown.svg" width="40px" /> （更新日期：2025/2/27）
 本網頁由運管系學會學務部製作，整理了「交大運管系的小天地」臉書社團分享的暑期實習，以及其他運輸物流相關暑期實習，點擊超連結（即表格中企業名稱欄位）即可查看各企業實習說明，歡迎同學參考，也歡迎同學自行搜尋其他實習。
 
 </aside>
@@ -29,7 +29,8 @@
 - [企業實習申請表](https://docs.google.com/document/d/1-3y8xvdjuxXFGOebQRL_OCN9oJgKOxi0/edit?usp=share_link&ouid=107233543130966563476&rtpof=true&sd=true)：「擬申請之實習企業」欄位需填寫實習單位及職缺/部門（e.g.桃園市政府交通局停車管理科、新竹物流信義營業所）
 
 <aside>
-<img src="https://www.notion.so/icons/tag_brown.svg" alt="https://www.notion.so/icons/tag_brown.svg" width="40px" /> 若有其他問題，歡迎聯絡下列的負責老師及行政專員：  
+<img src="https://www.notion.so/icons/tag_brown.svg" alt="https://www.notion.so/icons/tag_brown.svg" width="40px" />若有其他問題，歡迎聯絡下列的負責老師及行政專員：
+
 - 水敬心 老師 (csshui@nycu.edu.tw)  
 - 陳彥佑 老師 (yenyuchen@nycu.edu.tw)  
 - 楊茵如 行政專員 (yyj@nycu.edu.tw)
@@ -45,7 +46,7 @@
 ### 🎈 五、暑期實習職缺列表
 
 | 企業/實習名稱 | 申請方式 | 申請截止日 | 地點 | 年級限制或優先制度 | 運管相關職缺/單位 (僅供參考，以實際工作內容為主) | 備註 |
-|-------------|--------|--------|--------|-------------|------------------------------|----|
+|-------------|------------|--------|--------|-------------|------------------------------|----|
 | [味全食品](https://www.104.com.tw/job/7ygrc) | 自行申請  | 2025/04/11 | 台北/汐止 | 大四以上 | 供應鏈實習生 | - |
 | [鼎漢國際工程顧問](https://drive.google.com/drive/folders/1pc17qp...) | 系辦申請 | 2025/04/25 | 台北/台中/臺南/高雄 (將依錄取後分派為主) | 碩士班/大四/實習半年以上者優先 | 鼎漢國際工程顧問實習生 | [說明](./src/鼎漢國際工程_企業實習114.pdf) |
 | [戴爾科技](https://www.104.com.tw/job/8mhs6?jobsource=ind...) | 自行申請 | 2025/05/09 | 台北 | 大三/大四 | Supply Chain Summer Intern | - |
