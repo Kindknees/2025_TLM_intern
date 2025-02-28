@@ -28,20 +28,13 @@
 - [113學年度運管系企業實習雲端硬碟](https://drive.google.com/drive/folders/1sCSV1i1zfCu9Qq4CvvGmVEVRa6liaiEH?usp=sharing)
 - [企業實習申請表](https://docs.google.com/document/d/1-3y8xvdjuxXFGOebQRL_OCN9oJgKOxi0/edit?usp=share_link&ouid=107233543130966563476&rtpof=true&sd=true)：「擬申請之實習企業」欄位需填寫實習單位及職缺/部門（e.g.桃園市政府交通局停車管理科、新竹物流信義營業所）
 
-<aside>
 <img src="https://www.notion.so/icons/tag_brown.svg" alt="https://www.notion.so/icons/tag_brown.svg" width="40px" />若有其他問題，歡迎聯絡下列的負責老師及行政專員：
 
 - 水敬心 老師 (csshui@nycu.edu.tw)  
 - 陳彥佑 老師 (yenyuchen@nycu.edu.tw)  
 - 楊茵如 行政專員 (yyj@nycu.edu.tw)
 
-
-</aside>
-
-<aside>
 <img src="https://www.notion.so/icons/tag_brown.svg" alt="https://www.notion.so/icons/tag_brown.svg" width="40px" /> （若表格內資訊有誤可聯繫系學會，本資訊僅供參考，如有不正確或遺漏之處概不負責。）
-
-</aside>
 
 ### 🎈 五、暑期實習職缺列表
 
