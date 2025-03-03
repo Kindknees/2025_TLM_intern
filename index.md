@@ -1,10 +1,8 @@
 # 2025 暑期實習職缺分享
 
-<aside>
 <img src="https://www.notion.so/icons/tag_brown.svg" alt="https://www.notion.so/icons/tag_brown.svg" width="40px" /> （更新日期：2025/2/27）
-本網頁由運管系學會學務部製作，整理了「交大運管系的小天地」臉書社團分享的暑期實習，以及其他運輸物流相關暑期實習，點擊超連結（即表格中企業名稱欄位）即可查看各企業實習說明，歡迎同學參考，也歡迎同學自行搜尋其他實習。
+本網頁由運管系學會學務部製作，整理了「 [交大運管系的小天地](https://www.facebook.com/groups/175718125830492) 」臉書社團分享的暑期實習，以及其他運輸物流相關暑期實習，點擊超連結（即表格中企業名稱欄位）即可查看各企業實習說明，歡迎同學參考，也歡迎同學自行搜尋其他實習。
 
-</aside>
 
 ### 🎈  一、**企業實習課程說明**
 
@@ -36,15 +34,18 @@
 
 <img src="https://www.notion.so/icons/tag_brown.svg" alt="https://www.notion.so/icons/tag_brown.svg" width="40px" /> （若表格內資訊有誤可聯繫系學會，本資訊僅供參考，如有不正確或遺漏之處概不負責。）
 
-### 🎈 五、暑期實習職缺列表
+### 🎈 五、實習職缺列表（含暑期實習、一年期實習）
 
 | 企業/實習名稱 | 申請方式 | 申請截止日 | 地點 | 年級限制或優先制度 | 運管相關職缺/單位 (僅供參考，以實際工作內容為主) | 備註 |
 |-------------|------------|--------|--------|-------------|------------------------------|----|
 | [味全食品](https://www.104.com.tw/job/7ygrc) | 自行申請  | 2025/04/11 | 台北/汐止 | 大四以上 | 供應鏈實習生 | - |
-| [鼎漢國際工程顧問](https://drive.google.com/drive/folders/1pc17qp...) | 系辦申請 | 2025/04/25 | 台北/台中/臺南/高雄 (將依錄取後分派為主) | 碩士班/大四/實習半年以上者優先 | 鼎漢國際工程顧問實習生 | [說明](./src/鼎漢國際工程_企業實習114.pdf) |
+| [鼎漢國際工程顧問](./src/鼎漢/鼎漢國際工程_企業實習114.pdf) | 系辦申請 | 2025/04/25 | 台北/台中/臺南/高雄 (將依錄取後分派為主) | 碩士班/大四/實習半年以上者優先 | 鼎漢國際工程顧問實習生 | - |
 | [戴爾科技](https://www.104.com.tw/job/8mhs6?jobsource=ind...) | 自行申請 | 2025/05/09 | 台北 | 大三/大四 | Supply Chain Summer Intern | - |
 | [德州儀器](https://www.104.com.tw/job/7dn1v?jobsource=com...) | 自行申請 | - | 台北 | 碩士 | Supply Chain、Procurement and logistics…等 | - |
-
+| [和泰汽車](https://www.104.com.tw/job/8mij3?jobsource=cs_sub_custlist_rc&utm_source=web&utm_medium=ads) | 自行申請 | 2025/3/31 | 台北 | 無 | 營運管理 | - |
+| [裕隆汽車](https://www.104.com.tw/job/8n16g?jobsource=jolist_a_relevance) | 自行申請 | - | 苗栗 | - | - | 待更新，尚未開放 |
+| [新竹物流一年期實習](https://www.104.com.tw/company/lcp1uow?job=實習&roleJobCat=0_0&area=0&page=2&pageSize=20&order=8&asc=0&jobsource=index_s&tab=job) | 自行申請 | - | 多個營業所可自行選擇 | - | - | 可自行至104選擇哪個營業所進行實習 |
+| [台積電(非工程類)](https://careers.tsmc.com/zh_TW/careers/JobDetail?jobId=15286&source=External%2BCareer%2BSite) | 自行申請 | - | - | 碩士 | Material Management & Risk Management | - |
 
 ### 🎈 六、參考資料
 
