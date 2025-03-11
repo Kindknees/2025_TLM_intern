@@ -48,6 +48,7 @@
 | [台積電(非工程類)](https://careers.tsmc.com/zh_TW/careers/JobDetail?jobId=15286&source=External%2BCareer%2BSite) | 自行申請 | - | - | 碩士 | Material Management & Risk Management | - |
 | 台灣高鐵 | 自行申請 | - | 視分發地點而定 | 限在學大專/研究生，應屆畢業生請勿投遞 | - | [服勤](https://www.104.com.tw/job/86y94?jobsource=joblist_list&apply=form) [站務](https://www.104.com.tw/job/86y54?jobsource=joblist_list)
 | [蝦皮購物](https://careers.shopee.sg/job-detail/J01995930/1?channel=10001) | 自行申請 | - | 台北 | 大二以上 | Shopee Xpress、Operations | - |
+| [中研院](https://www3.stat.sinica.edu.tw/2025internship/list.html) | 自行申請 | 3/17 | 中研院（台北） | 無 | 大型網路資料分析、最佳化程序方法和應用、環境和交通大數據分析 | - |
 
 ### 🎈 六、參考資料
 
