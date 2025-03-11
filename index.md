@@ -47,6 +47,7 @@
 | [新竹物流一年期實習](https://www.104.com.tw/company/lcp1uow?job=實習&roleJobCat=0_0&area=0&page=2&pageSize=20&order=8&asc=0&jobsource=index_s&tab=job) | 自行申請 | - | 多個營業所可自行選擇 | - | - | 可自行至104選擇哪個營業所進行實習 |
 | [台積電(非工程類)](https://careers.tsmc.com/zh_TW/careers/JobDetail?jobId=15286&source=External%2BCareer%2BSite) | 自行申請 | - | - | 碩士 | Material Management & Risk Management | - |
 | 台灣高鐵 | 自行申請 | - | 視分發地點而定 | 限在學大專/研究生，應屆畢業生請勿投遞 | - | [服勤](https://www.104.com.tw/job/86y94?jobsource=joblist_list&apply=form) [站務](https://www.104.com.tw/job/86y54?jobsource=joblist_list)
+| [蝦皮購物](https://careers.shopee.sg/job-detail/J01995930/1?channel=10001) | 自行申請 | - | 台北 | 大二以上 | Shopee Xpress、Operations | - |
 
 ### 🎈 六、參考資料
 
