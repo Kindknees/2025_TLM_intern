@@ -54,7 +54,7 @@
 | [慧與科技一年實習生](https://www.104.com.tw/job/8lrcm?jobsource=google) | 自行申請 | - | 台北市南港區 | - | supply chain | 實習時間: 2025/7/7~2026/7/6，每周工作時數24小時 |
 | [Verkada](https://job-boards.greenhouse.io/verkada/jobs/4351306007?gh_src=a00b35477us) | 自行申請 | - | 台北 | - | supply chain | - |
 | [Silicon Labs](https://silabs.wd1.myworkdayjobs.com/en-US/SiliconlabsCareers/job/Hsinchu/Intern---Supplier-Management_20174-2) | 自行申請 | - | 新竹 | - | supplier management | 請再特別注意實習時間 |
-| [Nvidia](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Hsinchu/Fulfillment-Analyst--RDSS-Intern-_JR1992969-1?source=Appcast_Indeedo&ittk=FPHUXEV4YU) | 自行申請 | - |新竹 | - | Fulfillment Analyst (RDSS Intern) | - |
+| [Nvidia](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Hsinchu/Fulfillment-Analyst--RDSS-Intern-_JR1992969-1?source=Appcast_Indeedo&ittk=FPHUXEV4YU) | 自行申請 | - |新竹 | - | Fulfillment Analyst (RDSS Intern) | 研發替代役 |
 
 ### 🎈 六、參考資料
 
