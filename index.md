@@ -42,16 +42,22 @@
 | [鼎漢國際工程顧問](./src/鼎漢/鼎漢國際工程_企業實習114.pdf) | 系辦申請 | 2025/04/25 | 台北/台中/臺南/高雄 (將依錄取後分派為主) | 碩士班/大四/實習半年以上者優先 | 鼎漢國際工程顧問實習生 | - |
 | [戴爾科技](https://www.104.com.tw/job/8mhs6?jobsource=ind...) | 自行申請 | 2025/05/09 | 台北 | 大三/大四 | Supply Chain Summer Intern | - |
 | [德州儀器](https://www.104.com.tw/job/7dn1v?jobsource=com...) | 自行申請 | - | 台北 | 碩士 | Supply Chain、Procurement and logistics…等 | - |
-| [和泰汽車](https://www.104.com.tw/job/8mij3?jobsource=cs_sub_custlist_rc&utm_source=web&utm_medium=ads) | 自行申請 | 2025/3/31 | 台北 | 無 | 營運管理 | - |
-| [裕隆汽車](https://www.104.com.tw/job/8n16g?jobsource=jolist_a_relevance) | 自行申請 | - | 苗栗 | - | - | 待更新，尚未開放 |
+| [和泰汽車](https://www.104.com.tw/job/8mij3?jobsource=cs_sub_custlist_rc&utm_source=web&utm_medium=ads) | 自行申請 | 2025/3/31 | 台北 | -  | 營運管理 | - |
+| [裕隆汽車](https://www.104.com.tw/job/8n16g?jobsource=jolist_a_relevance) | 自行申請 | 2025/4/30 | 苗栗 | - | 供應管理 | - |
 | [新竹物流一年期實習](https://www.104.com.tw/company/lcp1uow?job=實習&roleJobCat=0_0&area=0&page=2&pageSize=20&order=8&asc=0&jobsource=index_s&tab=job) | 自行申請 | - | 多個營業所可自行選擇 | - | - | 可自行至104選擇哪個營業所進行實習 |
 | [台積電(非工程類)](https://careers.tsmc.com/zh_TW/careers/JobDetail?jobId=15286&source=External%2BCareer%2BSite) | 自行申請 | - | - | 碩士 | Material Management & Risk Management | - |
 | 台灣高鐵 | 自行申請 | - | 視分發地點而定 | 限在學大專/研究生，應屆畢業生請勿投遞 | - | [服勤](https://www.104.com.tw/job/86y94?jobsource=joblist_list&apply=form) [站務](https://www.104.com.tw/job/86y54?jobsource=joblist_list)
 | [蝦皮購物](https://careers.shopee.sg/job-detail/J01995930/1?channel=10001) | 自行申請 | - | 台北 | 大二以上 | Shopee Xpress、Operations | - |
-| [中研院](https://www3.stat.sinica.edu.tw/2025internship/list.html) | 自行申請 | 3/17 | 中研院（台北） | 無 | 大型網路資料分析、最佳化程序方法和應用、環境和交通大數據分析 | - |
+| [中研院](https://www3.stat.sinica.edu.tw/2025internship/list.html) | 自行申請 | 2025/3/17 | 中研院（台北） | 無 | 大型網路資料分析、最佳化程序方法和應用、環境和交通大數據分析 | - |
+| [iRent](https://www.104.com.tw/job/8mw0i?jobsource=index_s_cs) | 自行申請 | 2025/4/11 | 台北市中山區 | - | 營運管理 | - |
+| [福特六和汽車](https://www.104.com.tw/job/8nl2i?jobsource=index_s_cs) | 自行申請 | - | 桃園市中壢區 | - | 暑期實習生 | - |
+| [慧與科技一年實習生](https://www.104.com.tw/job/8lrcm?jobsource=google) | 自行申請 | - | 台北市南港區 | - | supply chain | 實習時間: 2025/7/7~2026/7/6，每周工作時數24小時 |
+| [Verkada](https://job-boards.greenhouse.io/verkada/jobs/4351306007?gh_src=a00b35477us) | 自行申請 | - | 台北 | - | supply chain | - |
+| [Silicon Labs](https://silabs.wd1.myworkdayjobs.com/en-US/SiliconlabsCareers/job/Hsinchu/Intern---Supplier-Management_20174-2) | 自行申請 | - | 新竹 | - | supplier management | 請再特別注意實習時間 |
+| [Nvidia](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Hsinchu/Fulfillment-Analyst--RDSS-Intern-_JR1992969-1?source=Appcast_Indeedo&ittk=FPHUXEV4YU) | 自行申請 | - |新竹 | - | Fulfillment Analyst (RDSS Intern) | - |
 
 ### 🎈 六、參考資料
 
 - [2023暑期實習職缺分享](https://wool-sushi-bfb.notion.site/0da5778844f04bc2b80473a9dd9b71af?v=529a60eb8b2441ea9278b49c568ea95d)
 - [2024暑期實習職缺分享](https://juvenile-bicycle-561.notion.site/2024-2ae63c6463e94b7c978d396cc8cc455a)
-- [20242024 其他實習職缺分享 (半年以上)](https://juvenile-bicycle-561.notion.site/8a43b0dc3dad479f99039303873e45fc)
+- [2024 其他實習職缺分享 (半年以上)](https://juvenile-bicycle-561.notion.site/8a43b0dc3dad479f99039303873e45fc)
