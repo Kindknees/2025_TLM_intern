@@ -1,6 +1,6 @@
 # 2025 暑期實習職缺分享
 
-<img src="https://www.notion.so/icons/tag_brown.svg" alt="https://www.notion.so/icons/tag_brown.svg" width="40px" /> （更新日期：2025/2/27）
+<img src="https://www.notion.so/icons/tag_brown.svg" alt="https://www.notion.so/icons/tag_brown.svg" width="40px" /> （更新日期：2025/3/24）
 本網頁由運管系學會學務部製作，整理了「 [交大運管系的小天地](https://www.facebook.com/groups/175718125830492) 」臉書社團分享的暑期實習，以及其他運輸物流相關暑期實習，點擊超連結（即表格中企業名稱欄位）即可查看各企業實習說明，歡迎同學參考，也歡迎同學自行搜尋其他實習。
 
 
@@ -12,7 +12,7 @@
 ### 🎈 二、「**系辦申請」之實習項目說明**
 
 1. 申請方式為**繳交企業實習申請表、歷年成績單至系辦楊小姐**，若實習單位有額外要求填寫其他申請表也請一併繳交至系辦。
-2. 申請方式請見每一個企業規定（點選下方表格內「企業/實習名稱」欄位查閱），並請注意每個實習企業收件截止時間，收件截止日期請參見[113學年度運管系企業實習雲端硬碟](https://drive.google.com/drive/folders/1sCSV1i1zfCu9Qq4CvvGmVEVRa6liaiEH?usp=sharing)之該企業資料夾名稱，如實習項目未標示截止時間，則以 5/28（二）前申請為原則。
+2. 申請方式請見每一個企業規定（點選下方表格內「企業/實習名稱」欄位查閱），並請注意每個實習企業收件截止時間，收件截止日期請參見[114學年度運管系企業實習雲端硬碟](https://drive.google.com/drive/folders/1MPI4UWK7t6ZGj9X5PrAWM7-bOoVDWWrw)之該企業資料夾名稱，如實習項目未標示截止時間，則以 5/23（五）前申請為原則。
 3. 系辦將參考申請者之年級、歷年成績、志願序分配實習單位，並於後續公告。
 
 ### 🎈 三、「**自行申請」之實習項目說明**
@@ -23,8 +23,8 @@
 
 ### 🎈 四、**相關附件**
 
-- [113學年度運管系企業實習雲端硬碟](https://drive.google.com/drive/folders/1sCSV1i1zfCu9Qq4CvvGmVEVRa6liaiEH?usp=sharing)
-- [企業實習申請表](https://docs.google.com/document/d/1-3y8xvdjuxXFGOebQRL_OCN9oJgKOxi0/edit?usp=share_link&ouid=107233543130966563476&rtpof=true&sd=true)：「擬申請之實習企業」欄位需填寫實習單位及職缺/部門（e.g.桃園市政府交通局停車管理科、新竹物流信義營業所）
+- [114學年度運管系企業實習雲端硬碟](https://drive.google.com/drive/folders/1MPI4UWK7t6ZGj9X5PrAWM7-bOoVDWWrw)
+- [企業實習申請表](https://drive.google.com/drive/folders/1Fpuck30vsNcgMOOkx04u9ViYdG9NeTTK)：「擬申請之實習企業」欄位需填寫實習單位及職缺/部門（e.g.桃園市政府交通局停車管理科、新竹物流信義營業所）
 
 <img src="https://www.notion.so/icons/tag_brown.svg" alt="https://www.notion.so/icons/tag_brown.svg" width="40px" />若有其他問題，歡迎聯絡下列的負責老師及行政專員：
 
@@ -42,7 +42,7 @@
 | [鼎漢國際工程顧問](./src/鼎漢/鼎漢國際工程_企業實習114.pdf) | 系辦申請 | 2025/04/25 | 台北/台中/臺南/高雄 (將依錄取後分派為主) | 碩士班/大四/實習半年以上者優先 | 鼎漢國際工程顧問實習生 | - |
 | [戴爾科技](https://www.104.com.tw/job/8mhs6?jobsource=ind...) | 自行申請 | 2025/05/09 | 台北 | 大三/大四 | Supply Chain Summer Intern | - |
 | [德州儀器](https://www.104.com.tw/job/7dn1v?jobsource=com...) | 自行申請 | - | 台北 | 碩士 | Supply Chain、Procurement and logistics…等 | - |
-| [和泰汽車](https://www.104.com.tw/job/8mij3?jobsource=cs_sub_custlist_rc&utm_source=web&utm_medium=ads) | 自行申請 | 2025/3/31 | 台北 | -  | 營運管理 | - |
+| [和泰汽車](https://www.104.com.tw/job/8mij3?jobsource=cs_sub_custlist_rc&utm_source=web&utm_medium=ads) | 自行申請 | 2025/3/31 | 台北/新莊/楊梅 | -  | 營運管理 | - |
 | [裕隆汽車](https://www.104.com.tw/job/8n16g?jobsource=jolist_a_relevance) | 自行申請 | 2025/4/30 | 苗栗 | - | 供應管理 | - |
 | [新竹物流一年期實習](https://www.104.com.tw/company/lcp1uow?job=實習&roleJobCat=0_0&area=0&page=2&pageSize=20&order=8&asc=0&jobsource=index_s&tab=job) | 自行申請 | - | 多個營業所可自行選擇 | - | - | 可自行至104選擇哪個營業所進行實習 |
 | [台積電(非工程類)](https://careers.tsmc.com/zh_TW/careers/JobDetail?jobId=15286&source=External%2BCareer%2BSite) | 自行申請 | - | - | 碩士 | Material Management & Risk Management | - |
@@ -53,8 +53,16 @@
 | [福特六和汽車](https://www.104.com.tw/job/8nl2i?jobsource=index_s_cs) | 自行申請 | - | 桃園市中壢區 | - | 暑期實習生 | - |
 | [慧與科技一年實習生](https://www.104.com.tw/job/8lrcm?jobsource=google) | 自行申請 | - | 台北市南港區 | - | supply chain | 實習時間: 2025/7/7~2026/7/6，每周工作時數24小時 |
 | [Verkada](https://job-boards.greenhouse.io/verkada/jobs/4351306007?gh_src=a00b35477us) | 自行申請 | - | 台北 | - | supply chain | - |
-| [Silicon Labs](https://silabs.wd1.myworkdayjobs.com/en-US/SiliconlabsCareers/job/Hsinchu/Intern---Supplier-Management_20174-2) | 自行申請 | - | 新竹 | - | supplier management | 請再特別注意實習時間 |
+| [Silicon Labs](https://silabs.wd1.myworkdayjobs.com/en-US/SiliconlabsCareers/job/Hsinchu/Intern---Supplier-Management_20174-2) | 自行申請 | - | 新竹 | - | supplier management | 請自行特別注意實習時間 |
 | [Nvidia](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Hsinchu/Fulfillment-Analyst--RDSS-Intern-_JR1992969-1?source=Appcast_Indeedo&ittk=FPHUXEV4YU) | 自行申請 | - |新竹 | - | Fulfillment Analyst (RDSS Intern) | 研發替代役 |
+| [台北市政府交通局](https://drive.google.com/drive/folders/1I-5emQeDAI6YyyPipST6LIrx8DYdugE7)| 系辦申請 | 2025/5/23 | 台北 | - | - | - |
+| [交通部鐵道局](https://drive.google.com/drive/folders/1Hc6hMI5PgYQ0Mu4M2ivQxWACzIX9ponO) | 自行申請 | - | - | - | - | 請自行注意申請時間，並上[RICH職場體驗網](https://rich.yda.gov.tw/rich/#/)投遞履歷 |
+| [高雄捷運](https://drive.google.com/drive/folders/14egox66wqEc2Oc_9kYvoNjirBexah-Ge) | 系辦申請 | 2025/4/25 | 高雄 | - | - | - |
+| [創聚環境管理顧問股份有限公司](https://www.104.com.tw/job/8nxy3?jobsource=google) | 自行申請 | - | 高雄 | - | - | - |
+| [中華航空](https://drive.google.com/drive/folders/1GAexQ5sHjgtGvviKRdVoX1HeV6yZSVgI) | 系辦申請 | 2025/3/28 | 桃園捷運 機場旅館站(A14a) | 升大三以上 | - | - |
+| [陽明海運（全年實習）](https://drive.google.com/drive/folders/1n7rM4nM4oLftsOxDZwi6cB-KrHLd8mxe) | 自行申請 | - | 台中、基隆 | 大三以上 | - | [實習生申請系統](https://principalnet.iliscyber.yangming.com/recruit/angular/dist/login)
+| [新北市政府交通局](https://drive.google.com/drive/folders/1i5N4AvmaS-dyi8cMTc6T1LiFrjXi4DD1) | 系辦申請 | - | 新北 | - | - | - 
+| [美商崔克自行車(半年或一年)](https://drive.google.com/drive/folders/106iS9ItuZRGcDdh107nExWD_GVxCeJUL) | 自行申請 | - | - | - | - | - |
 
 ### 🎈 六、參考資料
 
