@@ -42,7 +42,7 @@
 | [鼎漢國際工程顧問](./src/鼎漢/鼎漢國際工程_企業實習114.pdf) | 系辦申請 | 2025/04/25 | 台北/台中/臺南/高雄 (將依錄取後分派為主) | 碩士班/大四/實習半年以上者優先 | 鼎漢國際工程顧問實習生 | - |
 | [戴爾科技](https://www.104.com.tw/job/8mhs6?jobsource=ind...) | 自行申請 | 2025/05/09 | 台北 | 大三/大四 | Supply Chain Summer Intern | - |
 | [德州儀器](https://www.104.com.tw/job/7dn1v?jobsource=com...) | 自行申請 | - | 台北 | 碩士 | Supply Chain、Procurement and logistics…等 | - |
-| [和泰汽車](https://www.104.com.tw/job/8mij3?jobsource=cs_sub_custlist_rc&utm_source=web&utm_medium=ads) | 自行申請 | 2025/3/31 | 台北/新莊/楊梅 | -  | 營運管理 | - |
+| [汽車](https://www.104.com.tw/job/8mij3?jobsource=cs_sub_custlist_rc&utm_source=web&utm_medium=ads) | 自行申請 | 2025/3/31 | 台北/新莊/楊梅 | -  | 營運管理 | - |
 | [裕隆汽車](https://www.104.com.tw/job/8n16g?jobsource=jolist_a_relevance) | 自行申請 | 2025/4/30 | 苗栗 | - | 供應管理 | - |
 | [新竹物流一年期實習](https://www.104.com.tw/company/lcp1uow?job=實習&roleJobCat=0_0&area=0&page=2&pageSize=20&order=8&asc=0&jobsource=index_s&tab=job) | 自行申請 | - | 多個營業所可自行選擇 | - | - | 可自行至104選擇哪個營業所進行實習 |
 | [台積電(非工程類)](https://careers.tsmc.com/zh_TW/careers/JobDetail?jobId=15286&source=External%2BCareer%2BSite) | 自行申請 | - | - | 碩士 | Material Management & Risk Management | - |
@@ -63,6 +63,14 @@
 | [陽明海運（全年實習）](https://drive.google.com/drive/folders/1n7rM4nM4oLftsOxDZwi6cB-KrHLd8mxe) | 自行申請 | - | 台中、基隆 | 大三以上 | - | [實習生申請系統](https://principalnet.iliscyber.yangming.com/recruit/angular/dist/login)
 | [新北市政府交通局](https://drive.google.com/drive/folders/1i5N4AvmaS-dyi8cMTc6T1LiFrjXi4DD1) | 系辦申請 | - | 新北 | - | - | - 
 | [美商崔克自行車(半年或一年)](https://drive.google.com/drive/folders/106iS9ItuZRGcDdh107nExWD_GVxCeJUL) | 自行申請 | - | - | - | - | - |
+| [PMI瑞士商菲利普莫里斯](https://drive.google.com/drive/u/1/folders/1V3tJfo5aAuHxogSIIheUKxQpibzWGTCS) | 自行申請 | - | 台北市信義區 | 無 | 供應鏈/製造管理部門 | - |
+| [工研院](https://drive.google.com/drive/u/1/folders/12FR34FQNdwMpRZpD83gr4f2bpQxbWBX3) | 系辦申請 | - | 新竹 | 無 | - | - |
+| [財團法人中興工程顧問](https://drive.google.com/drive/u/1/folders/189ghrcwpNDr8uKrEE7DfBpUJ0tCYyQZu) | 系辦申請 | - | 台北 | 大三升大四 | - | - |
+| [高雄市政府交通局](https://drive.google.com/drive/u/1/folders/1jL9gItZBUUXunRlSpqWxAkKzGXcoxjkp) | 系辦申請 | - | 高雄 | - | - | - 
+| [新北大眾捷運股份有限公司企劃處](https://drive.google.com/drive/u/1/folders/1cN1j29sb1uIjiSMyvi_au34HtmT0L_BS) | 系辦申請 | - | 新北市新店區 | - | - | - |
+| [台中市政府交通局](https://drive.google.com/drive/u/1/folders/1kPaLAxLtTIIBIld5xYPMS0yrr6X4N0Tp) | 系辦申請 | - | 台中 | - | - | -
+| [台南市政府交通局](https://drive.google.com/drive/u/1/folders/1G-xMwTXDZgAC1AlW1gSjzAlAJYVBNd9-) | 系辦申請 | - | 台中 | - | - | -
+
 
 ### 🎈 六、參考資料
 
