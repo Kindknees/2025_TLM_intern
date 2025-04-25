@@ -1,0 +1,317 @@
+<script type="text/javascript">
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {};
+        var gk_fileData = {};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+        </script><!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>2025 暑期實習職缺分享</title>
+    <style>
+        /* 原有的 CSS 保持不變 */
+        /* 這裡省略您提供的 CSS，實際應用時直接使用原文件中的 <style> 內容 */
+        .filter-section {
+            margin: 1rem 0;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .filter-section label {
+            margin-right: 0.5rem;
+            font-weight: 500;
+        }
+        .filter-section select, .filter-section button {
+            padding: 0.5rem;
+            border: 1px solid rgba(55, 53, 47, 0.09);
+            border-radius: 3px;
+            font-size: 0.875rem;
+        }
+        .filter-section button {
+            background: rgba(206, 205, 202, 0.5);
+            cursor: pointer;
+        }
+        .filter-section button:hover {
+            background: rgba(206, 205, 202, 0.7);
+        }
+        .job-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.875rem;
+        }
+        .job-table th, .job-table td {
+            border: 1px solid rgba(55, 53, 47, 0.09);
+            padding: 0.25em 0.5em;
+            text-align: left;
+        }
+        .job-table th {
+            background: rgb(247, 246, 243);
+            font-weight: 500;
+            color: rgba(55, 53, 47, 0.6);
+        }
+        .job-table td a {
+            color: inherit;
+            text-decoration: underline;
+        }
+        .select-value-color-purple {
+            background-color: rgba(168, 129, 197, 0.27);
+        }
+        .select-value-color-blue {
+            background-color: rgba(93, 165, 206, 0.27);
+        }
+        .status-value {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .status-dot-color-green {
+            width: 8px;
+            height: 8px;
+            background-color: green;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <article id="1a6ac89a-7f38-80d0-9dfe-f7597d1c51e8" class="page sans">
+        <header>
+            <div class="page-header-icon undefined"><span class="icon">💼</span></div>
+            <h1 class="page-title">2025 暑期實習職缺分享</h1>
+            <p class="page-description"></p>
+        </header>
+        <div class="page-body">
+            <figure class="block-color-default callout" style="white-space:pre-wrap;display:flex" id="1a6ac89a-7f38-81ec-b670-dc5b3464d427">
+                <div style="font-size:1.5em"><img class="icon" src="https://www.notion.so/icons/tag_brown.svg"/></div>
+                <div style="width:100%">（更新日期：2025/4/25）<br/>本網頁由運管系學會學務部製作，整理了「交大運管系的小天地」臉書社團分享的暑期實習，以及其他運輸物流相關暑期實習，點擊超連結（即表格中企業名稱欄位）即可查看各企業實習說明，歡迎同學參考，也歡迎同學自行搜尋其他實習。<br/></div>
+            </figure>
+            <nav id="1a6ac89a-7f38-81e3-95ed-e020f0710727" class="block-color-gray table_of_contents">
+                <div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#1a6ac89a-7f38-81cf-b171-c2c3b221858f">🎈 一、<strong>企業實習課程說明</strong></a></div>
+                <div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#1a6ac89a-7f38-8182-93f5-d790cc94d310">🎈 二、「<mark class="highlight-blue"><strong>系辦申請</strong></mark><strong>」之實習項目說明</strong></a></div>
+                <div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#1a6ac89a-7f38-81d4-aa2e-c451dd24124d">🎈 三、「<mark class="highlight-purple"><strong>自行申請</strong></mark><strong>」之實習項目說明</strong></a></div>
+                <div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#1a6ac89a-7f38-8102-adb0-da97620434a9">🎈 四、<strong>相關附件</strong></a></div>
+                <div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#1a6ac89a-7f38-81f2-bcf5-dd001e15bcb6">🎈 五、暑期實習職缺列表</a></div>
+                <div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#1a6ac89a-7f38-8145-babc-fcaf4479ce63">🎈 六、參考資料</a></div>
+            </nav>
+            <h3 id="1a6ac89a-7f38-81cf-b171-c2c3b221858f" class="block-color-orange_background">🎈 一、<strong>企業實習課程說明</strong></h3>
+            <ol type="1" id="1a6ac89a-7f38-81b6-bf5a-f4d1dfb815be" class="numbered-list" start="1">
+                <li>參與暑假實習之同學可於下學年第一學期修習「企業實習」（2學分選修課程），將列入畢業學分。<strong><span style="border-bottom:0.05em solid">凡經系辦申請企業實習者，因應本系企業實習辦法，必須修習企業實習課程</span></strong>，包含已修習過企業實習課程者（但僅首次修習時的學分會被採計至畢業學分內）；自行申請者則可自行選擇是否修習企業實習課程，若有意修習，務必於錄取後通知系辦及老師（請見下方說明）。</li>
+            </ol>
+            <ol type="1" id="1a6ac89a-7f38-817e-8d1c-e2d489f72f1e" class="numbered-list" start="2">
+                <li>課程內容：實習前參加行前說明會，實習期間定期上傳實習計畫表，實習結束後繳交成果報告、參與成果發表會。</li>
+            </ol>
+            <h3 id="1a6ac89a-7f38-8182-93f5-d790cc94d310" class="block-color-orange_background">🎈 二、「<mark class="highlight-blue"><strong>系辦申請</strong></mark><strong>」之實習項目說明</strong></h3>
+            <ol type="1" id="1a6ac89a-7f38-8152-bdca-c193f261c3c3" class="numbered-list" start="1">
+                <li>申請方式為<strong><span style="border-bottom:0.05em solid">繳交企業實習申請表、歷年成績單至系辦楊小姐</span></strong>，若實習單位有額外要求填寫其他申請表也請一併繳交至系辦。</li>
+            </ol>
+            <ol type="1" id="1a6ac89a-7f38-81e2-a55b-f7455ffc35ca" class="numbered-list" start="2">
+                <li>申請方式請見每一個企業規定（點選下方表格內「企業/實習名稱」欄位查閱），並請注意每個實習企業收件截止時間，收件截止日期請參見<a href="https://drive.google.com/drive/folders/1sCSV1i1zfCu9Qq4CvvGmVEVRa6liaiEH?usp=sharing">113學年度運管系企業實習雲端硬碟</a>之該企業資料夾名稱，如實習項目未標示截止時間，則以 5/28（二）前申請為原則。</li>
+            </ol>
+            <ol type="1" id="1a6ac89a-7f38-81da-89ce-f31d3e4b0dbc" class="numbered-list" start="3">
+                <li>系辦將參考申請者之年級、歷年成績、志願序分配實習單位，並於後續公告。</li>
+            </ol>
+            <h3 id="1a6ac89a-7f38-81d4-aa2e-c451dd24124d" class="block-color-orange_background">🎈 三、「<mark class="highlight-purple"><strong>自行申請</strong></mark><strong>」之實習項目說明</strong></h3>
+            <ol type="1" id="1a6ac89a-7f38-8151-8389-cd7ed9945040" class="numbered-list" start="1">
+                <li>可採計為企業實習學分之實習不限於此列表，凡<strong><span style="border-bottom:0.05em solid">工作內容與運輸或物流相關的暑期實習</span></strong>皆可被採計。實習時間原則上至少需達四週以上，並以兩個月為佳。（可聯絡水敬心老師或陳彥佑老師，以確認該實習機會是否可被採計為企業實習學分。）</li>
+            </ol>
+            <ol type="1" id="1a6ac89a-7f38-818a-b3e6-d28b8ec5d27d" class="numbered-list" start="2">
+                <li>自行申請的同學在收到實習錄取通知後，請回報系辦楊小姐，並下載企業實習申請表，勾選已錄取，盡快繳交紙本至系辦。也請寄信通知水老師、陳老師，老師們將對於這些同學的實習工作內容有相關了解。</li>
+            </ol>
+            <ol type="1" id="1a6ac89a-7f38-8142-82c6-f5f82d24b641" class="numbered-list" start="3">
+                <li>下表中未標明申請截止日期之項目，表示該企業目前未公告。</li>
+            </ol>
+            <h3 id="1a6ac89a-7f38-8102-adb0-da97620434a9" class="block-color-orange_background">🎈 四、<strong>相關附件</strong></h3>
+            <ul id="1a6ac89a-7f38-818c-b0d1-cc27cb8cfb6f" class="bulleted-list">
+                <li style="list-style-type:disc"><a href="https://drive.google.com/drive/folders/1sCSV1i1zfCu9Qq4CvvGmVEVRa6liaiEH?usp=sharing">113學年度運管系企業實習雲端硬碟</a></li>
+            </ul>
+            <ul id="1a6ac89a-7f38-810e-98c2-e16cf2e6de4c" class="bulleted-list">
+                <li style="list-style-type:disc"><a href="https://docs.google.com/document/d/1-3y8xvdjuxXFGOebQRL_OCN9oJgKOxi0/edit?usp=share_link&ouid=107233543130966563476&rtpof=true&sd=true">企業實習申請表</a>：「擬申請之實習企業」欄位需填寫實習單位及職缺/部門（e.g.桃園市政府交通局停車管理科、新竹物流信義營業所）</li>
+            </ul>
+            <figure class="block-color-default callout" style="white-space:pre-wrap;display:flex" id="1a6ac89a-7f38-81eb-8b53-cc8f81f93242">
+                <div style="font-size:1.5em"><img class="icon" src="https://www.notion.so/icons/tag_brown.svg"/></div>
+                <div style="width:100%">若有其他問題，歡迎聯絡下列的負責老師及行政專員：<br/>水敬心 老師 <br/><a href="mailto:[email protected]">[email protected]</a><br/>陳彥佑 老師 <br/><a href="mailto:[email protected]">[email protected]</a><br/>楊茵如 行政專員 <br/><a href="mailto:[email protected]">[email protected]</a></div>
+            </figure>
+            <figure class="block-color-default callout" style="white-space:pre-wrap;display:flex" id="1a6ac89a-7f38-8100-9a2a-fb90c2e78283">
+                <div style="font-size:1.5em"><img class="icon" src="https://www.notion.so/icons/tag_brown.svg"/></div>
+                <div style="width:100%">（若表格內資訊有誤可聯繫系學會，本資訊僅供參考，如有不正確或遺漏之處概不負責。）</div>
+            </figure>
+            <h3 id="1a6ac89a-7f38-81f2-bcf5-dd001e15bcb6" class="block-color-orange_background">🎈 五、暑期實習職缺列表</h3>
+            <div id="1a6ac89a-7f38-811a-8e10-f048d862cb3b" class="collection-content">
+                <h4 class="collection-title">2025 暑期實習職缺列表</h4>
+                <div class="filter-section">
+                    <div>
+                        <label for="sort-deadline">排序方式（申請截止日）：</label>
+                        <select id="sort-deadline">
+                            <option value="asc">由早到晚</option>
+                            <option value="desc">由晚到早</option>
+                            <option value="none">無排序</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="filter-application">篩選申請方式：</label>
+                        <select id="filter-application">
+                            <option value="all">全部</option>
+                            <option value="系辦申請">系辦申請</option>
+                            <option value="自行申請">自行申請</option>
+                        </select>
+                    </div>
+                </div>
+                <table class="job-table">
+                    <thead>
+                        <tr>
+                            <th><span class="icon property-icon"><img src="https://www.notion.so/icons/city_gray.svg" style="width:14px;height:14px;display:block"/></span>企業/實習名稱</th>
+                            <th><span class="icon property-icon"><img src="https://www.notion.so/icons/briefcase_gray.svg" style="width:14px;height:14px;display:block"/></span>申請方式</th>
+                            <th><span class="icon property-icon"><svg aria-hidden="true" role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0" class="typesStatus"><path d="M8.75488 1.02344C8.75488 0.613281 8.41309 0.264648 8.00293 0.264648C7.59277 0.264648 7.25098 0.613281 7.25098 1.02344V3.11523C7.25098 3.51855 7.59277 3.86719 8.00293 3.86719C8.41309 3.86719 8.75488 3.51855 8.75488 3.11523V1.02344ZM3.91504 5.0293C4.20215 5.31641 4.69434 5.32324 4.97461 5.03613C5.26855 4.74902 5.26855 4.25684 4.98145 3.96973L3.53906 2.52051C3.25195 2.2334 2.7666 2.21973 2.47949 2.50684C2.19238 2.79395 2.18555 3.28613 2.47266 3.57324L3.91504 5.0293ZM10.9629 4.01758C10.6826 4.30469 10.6826 4.79688 10.9697 5.08398C11.2568 5.37109 11.749 5.36426 12.0361 5.07715L13.4854 3.62793C13.7725 3.34082 13.7725 2.84863 13.4785 2.55469C13.1982 2.27441 12.7061 2.27441 12.4189 2.56152L10.9629 4.01758ZM15.0234 8.78906C15.4336 8.78906 15.7822 8.44727 15.7822 8.03711C15.7822 7.62695 15.4336 7.28516 15.0234 7.28516H12.9385C12.5283 7.28516 12.1797 7.62695 12.1797 8.03711C12.1797 8.44727 12.5283 8.78906 12.9385 8.78906H15.0234ZM0.975586 7.28516C0.56543 7.28516 0.223633 7.62695 0.223633 8.03711C0.223633 8.44727 0.56543 8.78906 0.975586 8.78906H3.07422C3.48438 8.78906 3.83301 8.44727 3.83301 8.03711C3.83301 7.62695 3.48438 7.28516 3.07422 7.28516H0.975586ZM12.0361 10.9902C11.749 10.71 11.2568 10.71 10.9629 10.9971C10.6826 11.2842 10.6826 11.7764 10.9697 12.0635L12.4258 13.5127C12.7129 13.7998 13.2051 13.793 13.4922 13.5059C13.7793 13.2256 13.7725 12.7266 13.4854 12.4395L12.0361 10.9902ZM2.52051 12.4395C2.22656 12.7266 2.22656 13.2188 2.50684 13.5059C2.79395 13.793 3.28613 13.7998 3.57324 13.5127L5.02246 12.0703C5.31641 11.7832 5.31641 11.291 5.03613 11.0039C4.74902 10.7168 4.25684 10.71 3.96973 10.9971L2.52051 12.4395ZM8.75488 12.9658C8.75488 12.5557 8.41309 12.207 8.00293 12.207C7.59277 12.207 7.25098 12.5557 7.25098 12.9658V15.0576C7.25098 15.4609 7.59277 15.8096 8.00293 15.8096C8.41309 15.8096 8.75488 15.4609 8.75488 15.0576V12.9658Z"></path></svg></span>開放狀態</th>
+                            <th><span class="icon property-icon"><svg aria-hidden="true" role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0" class="typesDate"><path d="M3.29688 14.4561H12.7031C14.1797 14.4561 14.9453 13.6904 14.9453 12.2344V3.91504C14.9453 2.45215 14.1797 1.69336 12.7031 1.69336H3.29688C1.82031 1.69336 1.05469 2.45215 1.05469 3.91504V12.2344C1.05469 13.6973 1.82031 14.4561 3.29688 14.4561ZM3.27637 13.1162C2.70898 13.1162 2.39453 12.8154 2.39453 12.2207V5.9043C2.39453 5.30273 2.70898 5.00879 3.27637 5.00879H12.71C13.2842 5.00879 13.6055 5.30273 13.6055 5.9043V12.2207C13.6055 12.8154 13.2842 13.1162 12.71 13.1162H3.27637ZM6.68066 7.38086H7.08398C7.33008 7.38086 7.41211 7.30566 7.41211 7.05957V6.66309C7.41211 6.41699 7.33008 6.3418 7.08398 6.3418H6.68066C6.44141 6.3418 6.35938 6.41699 6.35938 6.66309V7.05957C6.35938 7.30566 6.44141 7.38086 6.68066 7.38086ZM8.92285 7.38086H9.31934C9.56543 7.38086 9.64746 7.30566 9.64746 7.05957V6.66309C9.64746 6.41699 9.56543 6.3418 9.31934 6.3418H8.92285C8.67676 6.3418 8.59473 6.41699 8.59473 6.66309V7.05957C8.59473 7.30566 8.67676 7.38086 8.92285 7.38086ZM11.1582 7.38086H11.5547C11.8008 7.38086 11.8828 7.30566 11.8828 7.05957V6.66309C11.8828 6.41699 11.8008 6.3418 11.5547 6.3418H11.1582C10.9121 6.3418 10.8301 6.41699 10.8301 6.66309V7.05957C10.8301 7.30566 10.9121 7.38086 11.1582 7.38086ZM4.44531 9.58203H4.84863C5.09473 9.58203 5.17676 9.50684 5.17676 9.26074V8.86426C5.17676 8.61816 5.09473 8.54297 4.84863 8.54297H4.44531C4.20605 8.54297 4.12402 8.61816 4.12402 8.86426V9.26074C4.12402 9.50684 4.20605 9.58203 4.44531 9.58203ZM6.68066 9.58203H7.08398C7.33008 9.58203 7.41211 9.50684 7.41211 9.26074V8.86426C7.41211 8.61816 7.33008 8.54297 7.08398 8.54297H6.68066C6.44141 8.54297 6.35938 8.61816 6.35938 8.86426V9.26074C6.35938 9.50684 6.44141 9.58203 6.68066 9.58203ZM8.92285 9.58203H9.31934C9.56543 9.58203 9.64746 9.50684 9.64746 9.26074V8.86426C9.64746 8.61816 9.56543 8.54297 9.31934 8.54297H8.92285C8.67676 8.54297 8.59473 8.61816 8.59473 8.86426V9.26074C8.59473 9.50684 8.67676 9.58203 8.92285 9.58203ZM11.1582 9.58203H11.5547C11.8008 9.58203 11.8828 9.50684 11.8828 9.26074V8.86426C11.8828 8.61816 11.8008 8.54297 11.5547 8.54297H11.1582C10.9121 8.54297 10.8301 8.61816 10.8301 8.86426V9.26074C10.8301 9.50684 10.9121 9.58203 11.1582 9.58203ZM4.44531 11.7832H4.84863C5.09473 11.7832 5.17676 11.708 5.17676 11.4619V11.0654C5.17676 10.8193 5.09473 10.7441 4.84863 10.7441H4.44531C4.20605 10.7441 4.12402 10.8193 4.12402 11.0654V11.4619C4.12402 11.708 4.20605 11.7832 4.44531 11.7832ZM6.68066 11.7832H7.08398C7.33008 11.7832 7.41211 11.708 7.41211 11.4619V11.0654C7.41211 10.8193 7.33008 10.7441 7.08398 10.7441H6.68066C6.44141 10.7441 6.35938 10.8193 6.35938 11.0654V11.4619C6.35938 11.708 6.44141 11.7832 6.68066 11.7832ZM8.92285 11.7832H9.31934C9.56543 11.7832 9.64746 11.708 9.64746 11.4619V11.0654C9.64746 10.8193 9.56543 10.7441 9.31934 10.7441H8.92285C8.67676 10.7441 8.59473 10.8193 8.59473 11.0654V11.4619C8.59473 11.708 8.67676 11.7832 8.92285 11.7832Z"></path></svg></span>申請截止日</th>
+                            <th><span class="icon property-icon"><img src="https://www.notion.so/icons/map-pin_gray.svg" style="width:14px;height:14px;display:block"/></span>地點</th>
+                            <th><span class="icon property-icon"><img src="https://www.notion.so/icons/arrows-vertical_gray.svg" style="width:14px;height:14px;display:block"/></span>年級限制或優先制度</th>
+                            <th><span class="icon property-icon"><img src="https://www.notion.so/icons/bus_gray.svg" style="width:14px;height:14px;display:block"/></span>運管相關職缺/單位</th>
+                            <th><span class="icon property-icon"><img src="https://www.notion.so/icons/pencil_gray.svg" style="width:14px;height:14px;display:block"/></span>備註</th>
+                        </tr>
+                    </thead>
+                    <tbody id="job-table-body">
+                        <!-- 職缺將由 JavaScript 動態生成 -->
+                    </tbody>
+                </table>
+                <br/><br/>
+            </div>
+        <h3 id="1a6ac89a-7f38-8145-babc-fcaf4479ce63" class="block-color-orange_background">🎈 六、參考資料</h3>
+        <ul id="1a6ac89a-7f38-8152-9b98-d4713e91b068" class="bulleted-list">
+            <li style="list-style-type:disc"><a href="https://wool-sushi-bfb.notion.site/0da5778844f04bc2b80473a9dd9b71af?v=529a60eb8b2441ea9278b49c568ea95d" target="_blank">2023 暑期實習職缺分享</a></li>
+            <li style="list-style-type:disc"><a href="https://juvenile-bicycle-561.notion.site/2024-2ae63c6463e94b7c978d396cc8cc455a" target="_blank">2024 暑期實習職缺分享</a></li>
+            <li style="list-style-type:disc"><a href="https://juvenile-bicycle-561.notion.site/8a43b0dc3dad479f99039303873e45fc" target="_blank">2024 其他實習職缺分享 (半年以上)</a></li>
+        </ul>
+        <p id="1a6ac89a-7f38-8000-8899-dd6fcc2b3f5d"></p>
+        </div>
+    </article>
+    <script>
+        // Fetch and parse CSV file
+        async function loadJobs() {
+            try {
+                const response = await fetch('jobs.csv');
+                if (!response.ok) throw new Error('無法加載 CSV 文件');
+                const text = await response.text();
+                const jobs = parseCSV(text);
+                displayJobs(jobs);
+                return jobs;
+            } catch (error) {
+                console.error('加載職缺數據失敗:', error);
+                document.getElementById('job-table-body').innerHTML = '<tr><td colspan="8">無法加載職缺數據，請檢查 CSV 文件</td></tr>';
+                return [];
+            }
+        }
+
+        // Parse CSV data
+        function parseCSV(text) {
+            const lines = text.trim().split('\n');
+            const headers = lines[0].split(',').map(header => header.trim());
+            const jobs = [];
+            for (let i = 1; i < lines.length; i++) {
+                const data = lines[i].split(',').map(item => item.trim());
+                if (data.length === headers.length) {
+                    const job = {};
+                    headers.forEach((header, index) => {
+                        job[header] = data[index];
+                    });
+                    jobs.push(job);
+                }
+            }
+            return jobs;
+        }
+
+        // Display jobs
+        function displayJobs(jobs) {
+            const jobTableBody = document.getElementById('job-table-body');
+            jobTableBody.innerHTML = '';
+            jobs.forEach(job => {
+                const row = document.createElement('tr');
+                // 根據 Link 欄位決定是否生成超連結
+                const companyCell = job.Link ? 
+                    `<a href="${job.Link}" target="_blank">${job.Company}</a>` : 
+                    job.Company;
+                row.innerHTML = `
+                    <td class="cell-title">${companyCell}</td>
+                    <td class="cell-M[xN"><span class="selected-value select-value-color-${job.ApplicationMethod === '系辦申請' ? 'blue' : 'purple'}">${job.ApplicationMethod}</span></td>
+                    <td class="cell-y::T"><span class="status-value"><div class="status-dot status-dot-color-green"></div>${job.Status}</span></td>
+                    <td class="cell-<hSj">${job.Deadline ? `<time>${job.Deadline}</time>` : ''}</td>
+                    <td class="cell-Et=H">${job.Location}</td>
+                    <td class="cell-CmbT">${job.GradeRestriction}</td>
+                    <td class="cell-vBxW">${job.JobTitle}</td>
+                    <td class="cell-_i[{">${job.Notes}</td>
+                `;
+                jobTableBody.appendChild(row);
+            });
+        }
+
+        // Sort and filter jobs
+        async function applyFilters() {
+            const jobs = await loadJobs();
+            const sortDeadline = document.getElementById('sort-deadline').value;
+            const filterApplication = document.getElementById('filter-application').value;
+
+            // Filter by application method
+            let filteredJobs = jobs;
+            if (filterApplication !== 'all') {
+                filteredJobs = jobs.filter(job => job.ApplicationMethod === filterApplication);
+            }
+
+            // Sort by deadline
+            if (sortDeadline !== 'none') {
+                filteredJobs.sort((a, b) => {
+                    const dateA = a.Deadline ? new Date(a.Deadline) : null;
+                    const dateB = b.Deadline ? new Date(b.Deadline) : null;
+
+                    if (!dateA && !dateB) return 0;
+                    if (!dateA) return 1; // 無截止日的排在最後
+                    if (!dateB) return -1;
+
+                    return sortDeadline === 'asc' ? dateA - dateB : dateB - dateA;
+                });
+            }
+
+            displayJobs(filteredJobs);
+        }
+
+        // Event listeners for filters
+        document.getElementById('sort-deadline').addEventListener('change', applyFilters);
+        document.getElementById('filter-application').addEventListener('change', applyFilters);
+
+        // Load jobs on page load
+        window.onload = applyFilters;
+    </script>
+</body>
+</html>
