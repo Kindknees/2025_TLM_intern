@@ -288,7 +288,7 @@
                 const row = document.createElement('tr');
                 // 根據 Link 欄位決定是否生成超連結
                 const companyCell = job.Link ? 
-                    `<a href="${job.Link}" target="_blank">${job.Company}</a>` : 
+                    `<a href="${encodeURIComponent(job.Link)}" target="_blank">${job.Company}</a>` : 
                     job.Company;
                 row.innerHTML = `
                     <td class="cell-title">${companyCell}</td>
