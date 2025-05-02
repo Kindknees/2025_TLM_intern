@@ -1,87 +1,9 @@
-<script type="text/javascript">
-        var gk_isXlsx = false;
-        var gk_xlsxFileLookup = {};
-        var gk_fileData = {};
-        function filledCell(cell) {
-          return cell !== '' && cell != null;
-        }
-        function loadFileData(filename) {
-        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
-            try {
-                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
-                var firstSheetName = workbook.SheetNames[0];
-                var worksheet = workbook.Sheets[firstSheetName];
-
-                // Convert sheet to JSON to filter blank rows
-                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
-                // Filter out blank rows (rows where all cells are empty, null, or undefined)
-                var filteredData = jsonData.filter(row => row.some(filledCell));
-
-                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
-                var headerRowIndex = filteredData.findIndex((row, index) =>
-                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
-                );
-                // Fallback
-                if (headerRowIndex === -1 || headerRowIndex > 25) {
-                  headerRowIndex = 0;
-                }
-
-                // Convert filtered JSON back to CSV
-                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
-                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
-                return csv;
-            } catch (e) {
-                console.error(e);
-                return "";
-            }
-        }
-        return gk_fileData[filename] || "";
-        }
-        </script><script type="text/javascript">
-        var gk_isXlsx = false;
-        var gk_xlsxFileLookup = {};
-        var gk_fileData = {};
-        function filledCell(cell) {
-          return cell !== '' && cell != null;
-        }
-        function loadFileData(filename) {
-        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
-            try {
-                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
-                var firstSheetName = workbook.SheetNames[0];
-                var worksheet = workbook.Sheets[firstSheetName];
-
-                // Convert sheet to JSON to filter blank rows
-                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
-                // Filter out blank rows (rows where all cells are empty, null, or undefined)
-                var filteredData = jsonData.filter(row => row.some(filledCell));
-
-                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
-                var headerRowIndex = filteredData.findIndex((row, index) =>
-                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
-                );
-                // Fallback
-                if (headerRowIndex === -1 || headerRowIndex > 25) {
-                  headerRowIndex = 0;
-                }
-
-                // Convert filtered JSON back to CSV
-                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
-                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
-                return csv;
-            } catch (e) {
-                console.error(e);
-                return "";
-            }
-        }
-        return gk_fileData[filename] || "";
-        }
-</script>
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>2025 暑期實習職缺分享</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <style>
         .filter-section {
             margin: 1rem 0;
@@ -190,7 +112,7 @@
             </ul>
             <figure class="block-color-default callout" style="white-space:pre-wrap;display:flex" id="1a6ac89a-7f38-81eb-8b53-cc8f81f93242">
                 <div style="font-size:1.5em"><img class="icon" src="https://www.notion.so/icons/tag_brown.svg"/></div>
-                <div style="width:100%">若有其他問題，歡迎聯絡下列的負責老師及行政專員：<br/>水敬心 老師 <br/><a href="mailto:[csshui@nycu.edu.tw]">[csshui@nycu.edu.tw]</a><br/>陳彥佑 老師 <br/><a href="mailto:[ yenyuchen@nycu.edu.tw]">[ yenyuchen@nycu.edu.tw]</a><br/>楊茵如 行政專員 <br/><a href="mailto:[yyj@nycu.edu.tw]">[yyj@nycu.edu.tw]</a></div>
+                <div style="width:100%">若有其他問題，歡迎聯絡下列的負責老師及行政專員：<br/>水敬心 老師 <br/><a href="/cdn-cgi/l/email-protection#9ec5fdededf6ebf7def0e7fdebb0fbfaebb0eae9c3">[<span class="__cf_email__" data-cfemail="a3c0d0d0cbd6cae3cddac0d68dc6c7d68dd7d4">[email&#160;protected]</span>]</a><br/>陳彥佑 老師 <br/><a href="/cdn-cgi/l/email-protection#5a017a233f34232f39323f341a3423392f743f3e2f742e2d07">[ <span class="__cf_email__" data-cfemail="28514d46515d4b404d466846514b5d064d4c5d065c5f">[email&#160;protected]</span>]</a><br/>楊茵如 行政專員 <br/><a href="/cdn-cgi/l/email-protection#81daf8f8ebc1eff8e2f4afe4e5f4aff5f6dc">[<span class="__cf_email__" data-cfemail="fd848497bd93849e88d3989988d3898a">[email&#160;protected]</span>]</a></div>
             </figure>
             <figure class="block-color-default callout" style="white-space:pre-wrap;display:flex" id="1a6ac89a-7f38-8100-9a2a-fb90c2e78283">
                 <div style="font-size:1.5em"><img class="icon" src="https://www.notion.so/icons/tag_brown.svg"/></div>
@@ -244,22 +166,90 @@
             <p id="1a6ac89a-7f38-8000-8899-dd6fcc2b3f5d"></p>
         </div>
     </article>
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script>
-        // Fetch and parse CSV file
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {};
+        var gk_fileData = {};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+
+        // Fetch and parse XLSX file
         async function loadJobs() {
             try {
-                const response = await fetch('jobs.csv');
-                if (!response.ok) throw new Error('無法加載 CSV 文件');
-                const text = await response.text();
-                const jobs = parseCSV(text);
+                // Set flag to indicate XLSX file processing
+                gk_isXlsx = true;
+
+                // Fetch the XLSX file as a Blob
+                const response = await fetch('jobs.xlsx');
+                if (!response.ok) throw new Error('無法加載 XLSX 文件');
+
+                // Convert Blob to ArrayBuffer
+                const arrayBuffer = await response.arrayBuffer();
+
+                // Convert ArrayBuffer to Base64
+                const base64Data = arrayBufferToBase64(arrayBuffer);
+
+                // Store the file data and lookup
+                const filename = 'jobs.xlsx';
+                gk_xlsxFileLookup[filename] = true;
+                gk_fileData[filename] = base64Data;
+
+                // Use loadFileData to process the XLSX file
+                const csvData = loadFileData(filename);
+                if (!csvData) throw new Error('無法解析 XLSX 文件');
+
+                // Parse the CSV output from loadFileData
+                const jobs = parseCSV(csvData);
                 displayJobs(jobs);
                 return jobs;
             } catch (error) {
                 console.error('加載職缺數據失敗:', error);
-                document.getElementById('job-table-body').innerHTML = '<tr><td colspan="7">無法加載職缺數據，請檢查 CSV 文件</td></tr>';
+                document.getElementById('job-table-body').innerHTML = '<tr><td colspan="7">無法加載職缺數據，請檢查 XLSX 文件</td></tr>';
                 return [];
             }
+        }
+
+        // Helper function to convert ArrayBuffer to Base64
+        function arrayBufferToBase64(buffer) {
+            let binary = '';
+            const bytes = new Uint8Array(buffer);
+            for (let i = 0; i < bytes.byteLength; i++) {
+                binary += String.fromCharCode(bytes[i]);
+            }
+            return window.btoa(binary);
         }
 
         // Parse CSV data
@@ -280,6 +270,16 @@
             return jobs;
         }
 
+        // Convert Excel serial date to readable date
+        function excelSerialToDate(serial) {
+            if (!serial || isNaN(serial)) return '';
+            const excelEpoch = new Date(Date.UTC(1899, 11, 30)); // Excel epoch starts at Dec 30, 1899
+            const days = parseInt(serial, 10);
+            const millisecondsPerDay = 24 * 60 * 60 * 1000;
+            const date = new Date(excelEpoch.getTime() + days * millisecondsPerDay);
+            return date.toISOString().split('T')[0]; // Format as YYYY-MM-DD
+        }
+
         // Display jobs
         function displayJobs(jobs) {
             const jobTableBody = document.getElementById('job-table-body');
@@ -287,13 +287,16 @@
             jobs.forEach(job => {
                 const row = document.createElement('tr');
                 // 根據 Link 欄位決定是否生成超連結
-                const companyCell = job.Link ? 
-                    `<a href="${encodeURIComponent(job.Link)}" target="_blank">${job.Company}</a>` : 
-                    job.Company;
+                const companyCell = job.Link
+                    ? `<a href="${encodeURI(job.Link)}" target="_blank">${job.Company}</a>`
+                    : job.Company;
+
+                // Convert Excel serial date to readable format
+                const deadlineCell = job.Deadline ? `<time>${excelSerialToDate(job.Deadline)}</time>` : '';
                 row.innerHTML = `
                     <td class="cell-title">${companyCell}</td>
                     <td class="cell-M[xN"><span class="selected-value select-value-color-${job.ApplicationMethod === '系辦申請' ? 'blue' : 'purple'}">${job.ApplicationMethod}</span></td>
-                    <td class="cell-<hSj">${job.Deadline ? `<time>${job.Deadline}</time>` : ''}</td>
+                    <td class="cell-<hSj">${deadlineCell}</td>
                     <td class="cell-Et=H">${job.Location}</td>
                     <td class="cell-CmbT">${job.GradeRestriction}</td>
                     <td class="cell-vBxW">${job.JobTitle}</td>
@@ -318,8 +321,8 @@
             // Sort by deadline
             if (sortDeadline !== 'none') {
                 filteredJobs.sort((a, b) => {
-                    const dateA = a.Deadline ? new Date(a.Deadline) : null;
-                    const dateB = b.Deadline ? new Date(b.Deadline) : null;
+                    const dateA = a.Deadline ? new Date(excelSerialToDate(a.Deadline)) : null;
+                    const dateB = b.Deadline ? new Date(excelSerialToDate(b.Deadline)) : null;
 
                     if (!dateA && !dateB) return 0;
                     if (!dateA) return 1; // 無截止日的排在最後
